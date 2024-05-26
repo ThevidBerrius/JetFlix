@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: #454545;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(signinloginbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  min-height: 530px;
+  width: 100%;
+  position: relative;
+}
+
+.overall {
+  color: #333;
+  margin: 0 auto;
+  padding: 0 3%;
+  height: 70%;
+  border: 1px solid rgba(0, 0, 0, .9);
+  border-radius: 25px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.overall h1 {
+  font-family: 'Consolas';
+  font-style: normal;
+  text-align: center;
+  font-size: 32px;
+  color: #eb0707;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#submit {
+  font-family: 'Consolas';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  border-radius: 4vw;
+  border: 0;
+  color: #fff;
+  height: 50px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 0, 0);
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+#submit:hover {
+  background-color: #454545;
+  cursor: pointer;
+}
+
+.element {
+  width: 100%;
+  background-color: #454545;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  height: 50px;
+  line-height: 20px;
+  padding: 10px 20px 0;
+  margin-bottom: 20px;
+}
+
+#s {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  padding: 80px 80px 40px 80px;
+}
+
+#forgot {
+  color: #eb0707;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+#error{
+  font-family: 'Consolas';
+  color: #eb0707;
+}
+
+a{
+  text-decoration: none; 
+  color: inherit; 
+}
+@media (max-width: 768px) {
+  #responsive {
+    height: 100vh;
+    background-color: #020A20;
+  }
+}

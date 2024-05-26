@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JeTFlix Sign Up</title>
+  <link rel="stylesheet" href="./CSS/signUPPage.css">
+</head>
+<body>
+  <div class="overall">
+    <div id="form">
+      <img id="logo" src="Assets/mainPageAsset/JeTFlixlogo.png">
+      <h1>Sign Up Account</h1>
+    <div>
+<form id="s" action="" method="get" onsubmit="validateForm(event)">
+  <input class="element" id="username" type="text" name="username" placeholder=" Name">
+  <input class="element" id="email" type="text" name="email" placeholder="Email">
+  <input class="element" id="password" type="password" name="password" placeholder="Password">
+  <input class="element" id="confirmpassword" type="password" name="confirmpassword" placeholder="Confirm Password">
+
+  <div id="radiobutton">
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+  
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+  </div>
+ <br>
+  <div id="termcond">
+    <input type="checkbox" name="agree" id="agree">
+    <label for="agree">Agree to the Terms & Conditions</label>
+  </div>
+<br><br>
+  <button id="submit" type="submit"><a href="moviePage.html">Sign Up</a></button>
+  <h4 id="error"></h4>
+
+</form>
+      </div>
+    
+</div>   
+  <script src="./JS/signUpPageJS.js"></script>
+</body>
+</html>

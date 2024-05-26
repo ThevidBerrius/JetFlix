@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100vh;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(mainBG1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.logo{
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+
+.tagline{
+    margin: 2rem;
+    margin-top: 15rem;
+    margin-left: 5rem;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.desc{
+    margin: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    font-size: 20px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#tombol{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.signupbutton {
+    width: 40vw;
+    height: 5vw;
+    font-size: 2vw;
+    font-family: 'Poppins';
+    color: aliceblue;
+    border-radius: 2vw;
+    background: gray;
+    border: none;
+}
+.signupbutton:hover {
+    background: rgb(210, 8, 8);
+}
+
+.loginbutton {
+    margin-left: 2vw;
+    width: 40vw;
+    height: 5vw;
+    font-size: 2vw;
+    font-family: 'Poppins';
+    color: aliceblue;
+    border-radius: 2vw;
+    background: gray;
+    border: none;
+}
+
+.loginbutton:hover {
+    background: rgb(210, 8, 8);
+}
+
+footer {
+    bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: fixed;
+}
+
+@media (max-width: 768px) {
+    #menu {display: block;}
+    #navigate {display: none;}
+    #profile {margin-left: auto;}
+    .desc{
+        font-size: 15px;
+    }
+    .tagline{
+        font-size: 30px;
+    }
+
+    .copyright{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    #responsive {
+        height: 100vh;
+        background-color: #020A20;
+    }
+}
